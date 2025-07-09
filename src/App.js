@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import { Greeting } from './Greeting';
+import { PeopleList } from './PeopleList';
 import './App.css';
 
 const people = [
@@ -33,7 +34,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Greeting name = "Wealth" numberOfMessages={22} />
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <PeopleList people={people}/>
         <p>
           <h1>This is so {adjective}</h1>
         </p>
