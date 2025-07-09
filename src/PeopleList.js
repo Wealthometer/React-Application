@@ -8,4 +8,4 @@ export const PeopleList = ({ people }) => {
             <p>Hair-Color{person.hairColor}</p>
         </div>
     ));
-} 
+}  
